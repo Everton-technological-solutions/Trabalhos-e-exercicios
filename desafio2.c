@@ -41,7 +41,11 @@ int main() {
    if (dencidade_populacional1 = populacao / area);
     {
       printf("Dencidade populacional: %f\n",dencidade_populacional1 );
+    }if (pib_per_capita1 = pib / populacao );
+    {
+        printf("Pib per capita da região é: %.3f\n ",pib_per_capita1);
     }
+    
 
 
 
@@ -95,6 +99,9 @@ int main() {
     if (dencidade_populacional2 = populacao02 / area02);
     {
       printf("Densidade populacional: %f\n",dencidade_populacional2 );
+    }if (pib_per_capita2 = pib02 / populacao02 );
+    {
+        printf("Pib per capita da região é: %.3f\n ",pib_per_capita2);
     }
      
 
