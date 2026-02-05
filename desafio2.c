@@ -12,6 +12,8 @@ int main() {
     float dencidade_populacional1;
     float pib_per_capita1;
 
+   
+
 
     // --- Coleta de Dados ----
 
@@ -36,11 +38,11 @@ int main() {
     printf("Digite o numero de Pontos Turisticos: ");
     scanf("%d", &pontos_turisticos);
 
-    if (populacao / area);
+   if (dencidade_populacional1 = populacao / area);
     {
-      
+      printf("Dencidade populacional: %f\n",dencidade_populacional1 );
     }
-    
+
 
 
     //  Exibição de Informaões de Carta 01
@@ -49,11 +51,7 @@ int main() {
     printf("Cidade: %s\n", Nome_cidade);
     printf("Populacao: %d\n  Area: %.2f km2\n", populacao, area);
     printf("PIB: %.2f\n  Pontos Turisticos: %d\n", pib, pontos_turisticos);
-     if (populacao / area);
-    {
-      printf("Dencidade populacional: %f\n",dencidade_populacional1 );
-    }
-
+    
 
    // printf("Dencidade populacional: %f\n",dencidade_populacional1 );
     
@@ -94,6 +92,10 @@ int main() {
     printf("Digite o numero de Pontos Turisticos\n: ");
     scanf("%d", &pontos_turisticos);
 
+    if (dencidade_populacional2 = populacao02 / area02);
+    {
+      printf("Densidade populacional: %f\n",dencidade_populacional2 );
+    }
      
 
 
@@ -110,10 +112,10 @@ int main() {
 
    if (populacao > populacao02 )
     {
-        printf("A População da carta 01 é maior que da carta 02");
+        printf("A População da carta 01 é maior que da carta 02\n");
     }else{
 
-    printf("A população da carta 02 é maior que da carta 01");
+    printf("A população da carta 02 é maior que da carta 01\n");
 
     }
       
